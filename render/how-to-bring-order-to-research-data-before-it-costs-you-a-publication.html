@@ -1,0 +1,741 @@
+
+
+
+ <!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>How to Bring Order to Research Data Before It Costs You a Publication</title>
+	<link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	body {
+	    font-family: 'Source Sans Pro', sans-serif;
+	    font-weight: 400;
+	    color: #444444;
+	    background: #f8f8f8;
+	    font-size: 1.8rem;
+	}
+
+	.typology-fake-bg {
+	    background: #f8f8f8;
+	}
+
+	.typology-section {
+	    background: #ffffff;
+	}
+
+	h1,
+	h2,
+	.h4 {
+	    font-family: 'Oswald', sans-serif;
+	    font-weight: 600;
+	}
+
+	h1 {
+	    font-size: 4.8rem;
+	}
+
+	h2 {
+	    font-size: 3.5rem;
+	}
+
+	.h4 {
+	    font-size: 2.3rem;
+	}
+
+	h1,
+	h2,
+	.h4 {
+	    color: #333333;
+	}
+
+	a {
+	    color: #c62641;
+	}
+
+	.single .typology-section:first-child .section-content {
+	    max-width: 720px;
+	}
+
+	.typology-header {
+	    height: 110px;
+	}
+
+	.typology-post:after {
+	    background: rgba(51, 51, 51, 0.2);
+	}
+
+	.typology-cover {
+	    min-height: 240px;
+	}
+
+	.typology-cover-empty {
+	    height: 209px;
+	    min-height: 209px;
+	}
+
+	.typology-fake-bg .typology-section:first-child {
+	    top: -99px;
+	}
+
+	.typology-cover-empty,
+	.typology-cover {
+	    background: #232526;
+	    /* fallback for old browsers */
+	    background: -webkit-linear-gradient(to top, #414345, #232526);
+	    /* Chrome 10-25, Safari 5.1-6 */
+	    background: linear-gradient(to top, #414345, #232526);
+	    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+
+	.typology-cover {
+	    color: #ffffff;
+	}
+
+	.site-title {
+	    text-transform: uppercase;
+	}
+
+	h1,
+	h2 {
+	    text-transform: uppercase;
+	}
+
+	.has-drop-cap:not(:focus):first-letter {
+	    float: left;
+	    font-size: 8.4em;
+	    line-height: .68;
+	    font-weight: 100;
+	    margin: .05em .1em 0 0;
+	    text-transform: uppercase;
+	    font-style: normal
+	}
+
+	.components-custom-select-control__button:focus:not(:disabled) {
+	    border-color: var(--wp-admin-theme-color);
+	    box-shadow: 0 0 0 1px var(--wp-admin-theme-color)
+	}
+
+	.wc-block-components-totals-wrapper.slot-wrapper>*>:after {
+	    border-style: solid;
+	    border-width: 0 0 1px;
+	    bottom: 0;
+	    content: "";
+	    display: block;
+	    left: 0;
+	    opacity: .3;
+	    pointer-events: none;
+	    position: absolute;
+	    right: 0;
+	    top: 0
+	}
+
+	img {
+	    vertical-align: middle
+	}
+
+	a,
+	a:focus,
+	a:hover {
+	    text-decoration: underline
+	}
+
+	img {
+	    max-width: 100%
+	}
+
+	article,
+	header {
+	    display: block
+	}
+
+	p {
+	    margin-bottom: 1rem
+	}
+
+	body {
+	    margin: 0
+	}
+
+	a:active,
+	a:hover {
+	    outline-width: 0
+	}
+
+	h1 {
+	    font-size: 2.5em;
+	    margin: .67em 0
+	}
+
+	img {
+	    border-style: none
+	}
+
+	html {
+	    -webkit-box-sizing: border-box;
+	    box-sizing: border-box
+	}
+
+	*,
+	::after,
+	::before {
+	    -webkit-box-sizing: inherit;
+	    box-sizing: inherit
+	}
+
+	@-ms-viewport {
+	    width: device-width
+	}
+
+	p {
+	    margin-top: 0
+	}
+
+	a:focus {
+	    outline: 0
+	}
+
+	a {
+	    -ms-touch-action: manipulation;
+	    touch-action: manipulation
+	}
+
+	img {
+	    height: auto
+	}
+
+	a:hover {
+	    text-decoration: none
+	}
+
+	.container {
+	    margin-left: auto;
+	    margin-right: auto;
+	    max-width: 1200px;
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap
+	}
+
+	.typology-post:last-child:after {
+	    display: none
+	}
+
+	.typology-section {
+	    -webkit-box-shadow: 0 30px 50px 0 rgba(1, 1, 1, .15);
+	    box-shadow: 0 30px 50px 0 rgba(1, 1, 1, .15);
+	    max-width: 1170px;
+	    margin: 0 auto 10rem;
+	    width: 95%;
+	    padding: 16rem 0 15rem
+	}
+
+	.typology-fake-bg .typology-section:first-child {
+	    top: -10rem;
+	    position: relative;
+	    z-index: 900;
+	    margin-bottom: 0
+	}
+
+	.typology-fake-bg {
+	    position: relative;
+	    z-index: 9000
+	}
+
+	.typology-section>:last-child {
+	    margin-bottom: 0
+	}
+
+	.section-content {
+	    max-width: 720px;
+	    margin: 0 auto 12rem
+	}
+
+	.typology-post {
+	    position: relative;
+	    margin-bottom: 9rem;
+	    padding-bottom: 10rem
+	}
+
+	.typology-post:after {
+	    content: "";
+	    height: 1px;
+	    width: 50px;
+	    position: absolute;
+	    bottom: 0;
+	    left: 50%;
+	    margin-left: -25px;
+	    background: #333
+	}
+
+	.typology-post:last-child {
+	    padding-bottom: 0
+	}
+
+	.entry-header {
+	    margin-bottom: 2.6rem
+	}
+
+	.entry-header {
+	    position: relative;
+	    z-index: 2
+	}
+
+	body .slot-l,
+	body .typology-header .container,
+	body .typology-header .typology-site-branding {
+	    height: inherit
+	}
+
+	_::-webkit-:not(:root:root) {
+	    padding: 4px 0 0
+	}
+
+	html {
+	    font-size: 62.5%
+	}
+
+	body {
+	    line-height: 1.88
+	}
+
+	html,
+	html a {
+	    -webkit-font-smoothing: antialiased
+	}
+
+	.h4,
+	h1,
+	h2 {
+	    margin-top: 0;
+	    margin-bottom: 2rem
+	}
+
+	h1 {
+	    line-height: 1.2
+	}
+
+	h2 {
+	    line-height: 1.25
+	}
+
+	.h4 {
+	    line-height: 1.35
+	}
+
+	.entry-content h2 {
+	    margin-bottom: 3.6rem
+	}
+
+	.entry-title {
+	    margin-bottom: 0
+	}
+
+	p {
+	    margin: 0 0 3.6rem
+	}
+
+	.entry-title {
+	    -ms-word-wrap: break-word;
+	    word-wrap: break-word
+	}
+
+	.slot-l {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    -webkit-box-align: center
+	}
+
+	.typology-header {
+	    width: 100%;
+	    top: 0;
+	    left: 0;
+	    z-index: 9001;
+	    will-change: scroll-position
+	}
+
+	.typology-header .container {
+	    height: 100%;
+	    position: relative
+	}
+
+	.slot-l {
+	    position: absolute;
+	    z-index: 1001;
+	    display: flex;
+	    -ms-flex-align: center;
+	    align-items: center;
+	    top: 0
+	}
+
+	.slot-l {
+	    height: 100%
+	}
+
+	.slot-l>div {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    vertical-align: center
+	}
+
+	.site-title {
+	    margin-bottom: 0;
+	    line-height: 1.2;
+	    top: 0
+	}
+
+	.site-title img {
+	    width: 150px
+	}
+
+	.site-title {
+	    position: relative
+	}
+
+	.typology-header .typology-site-branding {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    height: 100%;
+	    -webkit-box-align: center;
+	    -ms-flex-align: center;
+	    align-items: center;
+	    -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	    justify-content: center
+	}
+
+	.slot-l {
+	    left: 15px;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex
+	}
+
+	.typology-header {
+	    position: absolute
+	}
+
+	.typology-cover {
+	    overflow: hidden
+	}
+
+	.single .typology-single-post:after {
+	    display: none
+	}
+
+	.single .section-content .typology-single-post {
+	    padding-bottom: 0;
+	    margin-bottom: 0;
+	    width: 100%
+	}
+
+	article:only-of-type {
+	    background: 0 0
+	}
+
+	.typology-cover {
+	    position: relative;
+	    text-align: center
+	}
+
+	p.has-drop-cap:not(:focus)::first-letter {
+	    font-size: 8rem;
+	    margin: 20px 20px 0 0
+	}
+
+	@media (max-width: 1366px) {
+	    .typology-cover {
+	        height: auto
+	    }
+	}
+
+	@media (max-width: 1260px) {
+	    .typology-section {
+	        width: 93%
+	    }
+	    .typology-header .container {
+	        max-width: 93%
+	    }
+	    .slot-l {
+	        left: 0
+	    }
+	}
+
+	@media (max-width: 1024px) {
+	    .typology-post {
+	        margin-bottom: 7rem;
+	        padding-bottom: 8rem
+	    }
+	    .typology-section {
+	        padding: 10rem 14% 11rem;
+	        margin-bottom: 8rem
+	    }
+	}
+
+	@media (max-width: 800px) {
+	    .typology-header .container {
+	        max-width: 90%
+	    }
+	    .typology-section {
+	        width: 90%
+	    }
+	    h1 {
+	        font-size: 4rem!important
+	    }
+	    h2 {
+	        font-size: 3.6rem!important
+	    }
+	    .h4 {
+	        font-size: 2.8rem!important
+	    }
+	}
+
+	@media (max-width: 680px) {
+	    .typology-section {
+	        padding: 7rem 10%;
+	        margin-bottom: 4rem;
+	        width: 100%;
+	        -webkit-box-shadow: none;
+	        box-shadow: none;
+	        border-bottom: 1px solid rgba(0, 0, 0, .1)
+	    }
+	    .section-content {
+	        margin: 0 auto 5rem
+	    }
+	    p {
+	        margin: 0 0 2rem
+	    }
+	    .entry-content h2 {
+	        margin-bottom: 2rem
+	    }
+	    h1 {
+	        font-size: 4.2rem!important
+	    }
+	    h2 {
+	        font-size: 3.6rem!important
+	    }
+	    .h4 {
+	        font-size: 2.4rem!important
+	    }
+	    .typology-cover-empty,
+	    .typology-header {
+	        max-height: 75px;
+	        min-height: 75px!important;
+	        height: 75px!important
+	    }
+	    .typology-fake-bg .typology-section:first-child {
+	        top: 0!important
+	    }
+	    .typology-section-related .layout-odd .typology-layout-c:nth-last-of-type {
+	        margin-bottom: 5rem
+	    }
+	}
+
+	@media (max-width: 480px) {
+	    body {
+	        font-size: 1.5em
+	    }
+	    .typology-header {
+	        max-height: 70px
+	    }
+	    .typology-section {
+	        width: 100%
+	    }
+	    .typology-section {
+	        padding: 2.8rem 8% 4rem
+	    }
+	    .typology-header .container {
+	        max-width: 83%
+	    }
+	    .typology-cover {
+	        height: 100vh
+	    }
+	    h1 {
+	        font-size: 2.7rem!important
+	    }
+	    h2 {
+	        font-size: 2.5rem!important
+	    }
+	    .h4 {
+	        font-size: 2rem!important
+	    }
+	    .entry-header {
+	        margin-bottom: 1.6rem
+	    }
+	    .typology-section {
+	        margin-bottom: 2rem
+	    }
+	    .entry-content h2 {
+	        word-break: break-word
+	    }
+	}
+
+	@media (max-width: 320px) {
+	    body {
+	        font-size: 1.4rem!important
+	    }
+	    p {
+	        margin: 0 0 2.2rem
+	    }
+	    h1 {
+	        font-size: 2.4rem!important
+	    }
+	    h2 {
+	        font-size: 2.2rem!important
+	    }
+	    .h4 {
+	        font-size: 1.8rem!important
+	    }
+	    .entry-content h2 {
+	        margin-bottom: 1.6rem
+	    }
+	    .typology-section {
+	        padding: 2.6rem 8% 4rem
+	    }
+	}
+
+	@media (max-width: 740px) and (orientation: landscape) {
+	    .typology-cover {
+	        height: auto
+	    }
+	}
+
+	.clearfix::after {
+	    content: "";
+	    clear: both;
+	    display: table
+	}
+
+	.widget-inside ul li::marker {
+	    content: none !important;
+	}
+	</style>
+</head>
+<body class="post-template-default single single-post postid-115 single-format-standard wp-embed-responsive theme-typology typology-v_1_7_5">
+	<header class="typology-header" id="typology-header" style="z-index: 9001; top: 0px;">
+		<div class="container">
+			<div class="slot-l">
+				<div class="typology-site-branding">
+					<span class="site-title h4"><img class="typology-logo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation:isolate' viewBox='0 0 520.285 91.355' width='520.285pt' height='91.355pt'%3E%3Cdefs%3E%3CclipPath id='_clipPath_AUpdabBSJIxWzPjMSOIZl7jOaACr92NZ'%3E%3Crect width='520.285' height='91.355'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23_clipPath_AUpdabBSJIxWzPjMSOIZl7jOaACr92NZ)'%3E%3Crect width='520.285' height='91.355' style='fill:rgb(0,0,0)' fill-opacity='0'/%3E%3Cpath d=' M 11.794 72.304 C 16.602 73.574 21.591 74.209 26.762 74.209 C 32.75 74.209 37.921 73.302 42.185 71.487 C 46.358 69.673 49.533 67.133 51.71 64.048 C 53.797 60.964 54.886 57.516 54.886 53.706 C 54.886 49.352 53.706 45.814 51.348 43.273 C 48.989 40.733 46.267 38.828 43.092 37.649 C 39.917 36.469 35.925 35.381 31.117 34.292 C 26.762 33.385 23.678 32.568 21.773 31.661 C 19.777 30.845 18.87 29.575 18.87 27.851 C 18.87 26.218 19.686 24.857 21.319 23.769 C 22.952 22.68 25.492 22.136 29.121 22.136 C 34.746 22.136 40.643 23.769 46.721 27.035 L 52.255 13.699 C 49.17 11.884 45.541 10.524 41.55 9.616 C 37.467 8.709 33.385 8.165 29.212 8.165 C 23.043 8.165 17.872 9.072 13.699 10.886 C 9.526 12.701 6.35 15.241 4.264 18.325 C 2.087 21.41 1.089 24.948 1.089 28.758 C 1.089 33.204 2.177 36.742 4.536 39.282 C 6.804 41.913 9.526 43.818 12.792 44.997 C 15.967 46.176 19.958 47.265 24.767 48.263 C 29.121 49.261 32.206 50.168 34.201 51.075 C 36.197 51.983 37.195 53.253 37.195 55.067 C 37.195 58.514 33.748 60.238 26.853 60.238 C 23.224 60.238 19.505 59.694 15.785 58.514 C 11.975 57.426 8.709 55.884 5.897 53.978 L 0 67.224 C 2.994 69.401 6.895 71.034 11.794 72.304 L 11.794 72.304 L 11.794 72.304 L 11.794 72.304 L 11.794 72.304 L 11.794 72.304 L 11.794 72.304 L 11.794 72.304 L 11.794 72.304 L 11.794 72.304 Z M 96.207 70.943 L 91.943 58.877 C 90.401 59.966 88.677 60.42 86.682 60.42 C 85.049 60.42 83.778 59.966 82.871 58.968 C 81.964 57.97 81.51 56.609 81.51 54.795 L 81.51 38.465 L 92.76 38.465 L 92.76 25.583 L 81.51 25.583 L 81.51 12.792 L 64.274 12.792 L 64.274 25.583 L 57.107 25.583 L 57.107 38.465 L 64.274 38.465 L 64.274 54.976 C 64.274 61.236 65.997 65.953 69.445 69.038 C 72.892 72.213 77.791 73.755 84.232 73.755 C 86.591 73.755 88.768 73.574 90.855 73.03 C 92.941 72.576 94.756 71.85 96.207 70.943 L 96.207 70.943 L 96.207 70.943 L 96.207 70.943 L 96.207 70.943 L 96.207 70.943 L 96.207 70.943 L 96.207 70.943 L 96.207 70.943 L 96.207 70.943 Z M 133.551 56.972 C 131.555 59.059 129.106 60.057 126.112 60.057 C 123.028 60.057 120.578 59.059 118.673 56.972 C 116.677 54.886 115.77 51.983 115.77 48.263 C 115.77 44.634 116.677 41.822 118.673 39.735 C 120.578 37.74 123.028 36.651 126.112 36.651 C 129.106 36.651 131.555 37.74 133.551 39.735 C 135.456 41.822 136.454 44.634 136.454 48.263 C 136.454 51.983 135.456 54.886 133.551 56.972 L 133.551 56.972 L 133.551 56.972 L 133.551 56.972 L 133.551 56.972 L 133.551 56.972 L 133.551 56.972 L 133.551 56.972 L 133.551 56.972 Z M 185.082 24.676 C 182.269 25.764 180.001 27.488 178.278 29.665 L 178.278 23.769 L 161.857 23.769 L 161.857 72.939 L 179.094 72.939 L 179.094 50.35 C 179.094 46.267 180.092 43.183 182.179 41.187 C 184.265 39.191 187.168 38.193 190.888 38.193 C 191.886 38.193 193.156 38.284 194.789 38.465 L 194.789 22.952 C 191.16 22.952 187.894 23.587 185.082 24.676 L 185.082 24.676 L 185.082 24.676 L 185.082 24.676 L 185.082 24.676 L 185.082 24.676 L 185.082 24.676 Z M 255.297 23.769 L 238.877 23.769 L 226.721 53.797 L 214.655 23.769 L 196.964 23.769 L 218.012 73.574 C 217.286 75.025 216.379 76.114 215.29 76.749 C 214.201 77.475 212.931 77.747 211.298 77.747 C 209.847 77.747 208.486 77.566 207.125 77.021 C 205.764 76.477 204.585 75.751 203.678 74.844 L 197.69 86.91 C 199.323 88.271 201.41 89.359 204.041 90.176 C 206.671 90.992 209.302 91.355 211.933 91.355 C 217.014 91.355 221.368 90.176 224.997 87.726 C 228.535 85.277 231.529 81.013 234.069 74.935 L 255.297 23.769 L 255.297 23.769 L 255.297 23.769 L 255.297 23.769 L 255.297 23.769 L 255.297 23.769 Z M 334.146 33.657 L 317.726 63.05 L 317.816 72.939 L 334.327 72.939 L 334.146 33.657 L 334.146 33.657 L 334.146 33.657 L 334.146 33.657 L 334.146 33.657 L 334.146 33.657 Z M 260.481 72.939 L 277.083 72.939 L 277.083 64.139 L 260.481 34.474 L 260.481 72.939 L 260.481 72.939 L 260.481 72.939 L 260.481 72.939 L 260.481 72.939 L 260.481 72.939 Z M 319.358 9.435 L 297.586 46.086 L 275.269 9.435 L 260.481 9.435 L 277.083 40.189 L 293.322 66.679 L 301.305 66.679 L 317.635 39.282 L 333.692 9.435 L 319.358 9.435 L 319.358 9.435 L 319.358 9.435 L 319.358 9.435 L 319.358 9.435 L 319.358 9.435 Z M 371.715 61.417 C 370.173 62.415 368.449 62.869 366.454 62.869 C 364.458 62.869 362.825 62.415 361.736 61.508 C 360.557 60.601 360.012 59.422 360.012 57.879 C 360.012 54.613 362.462 52.89 367.542 52.89 L 374.981 52.89 L 374.981 57.154 C 374.255 59.059 373.167 60.51 371.715 61.417 L 371.715 61.417 L 371.715 61.417 L 371.715 61.417 L 371.715 61.417 L 371.715 61.417 Z M 437.116 70.943 L 432.852 58.877 C 431.31 59.966 429.586 60.42 427.59 60.42 C 425.957 60.42 424.687 59.966 423.78 58.968 C 422.873 57.97 422.419 56.609 422.419 54.795 L 422.419 38.465 L 433.669 38.465 L 433.669 25.583 L 422.419 25.583 L 422.419 12.792 L 405.182 12.792 L 405.182 25.583 L 398.016 25.583 L 398.016 38.465 L 405.182 38.465 L 405.182 54.976 C 405.182 61.236 406.906 65.953 410.353 69.038 C 413.801 72.213 418.7 73.755 425.141 73.755 C 427.5 73.755 429.677 73.574 431.763 73.03 C 433.85 72.576 435.664 71.85 437.116 70.943 L 437.116 70.943 L 437.116 70.943 Z M 443.763 23.769 L 443.763 72.939 L 460.999 72.939 L 460.999 23.769 L 443.763 23.769 L 443.763 23.769 L 443.763 23.769 Z M 444.76 15.695 C 446.666 17.509 449.206 18.325 452.381 18.325 C 455.465 18.325 458.006 17.509 460.001 15.695 C 461.907 13.88 462.904 11.612 462.904 8.891 C 462.904 6.35 461.907 4.173 460.001 2.54 C 458.006 0.907 455.465 0 452.381 0 C 449.206 0 446.666 0.907 444.76 2.631 C 442.765 4.445 441.857 6.623 441.857 9.163 C 441.857 11.794 442.765 13.971 444.76 15.695 L 444.76 15.695 L 444.76 15.695 Z M 111.869 70.489 C 116.042 72.667 120.85 73.755 126.112 73.755 C 131.374 73.755 136.182 72.667 140.446 70.489 C 144.619 68.312 147.976 65.318 150.334 61.417 C 152.693 57.607 153.872 53.162 153.872 48.263 C 153.872 43.364 152.693 39.01 150.334 35.199 C 147.976 31.389 144.619 28.395 140.446 26.218 C 136.182 24.041 131.374 22.952 126.112 22.952 C 120.76 22.952 115.951 24.041 111.778 26.218 C 107.605 28.395 104.249 31.389 101.89 35.199 C 99.531 39.1 98.352 43.455 98.352 48.263 C 98.352 53.162 99.531 57.607 101.89 61.417 C 104.249 65.318 107.605 68.312 111.869 70.489 L 111.869 70.489 L 111.869 70.489 L 111.869 70.489 L 111.869 70.489 L 111.869 70.489 L 111.869 70.489 L 111.869 70.489 L 111.869 70.489 Z M 385.777 28.577 C 381.422 24.857 375.253 22.952 367.089 22.952 C 363.097 22.952 359.196 23.496 355.295 24.494 C 351.394 25.492 348.128 26.853 345.406 28.668 L 351.213 40.37 C 352.846 39.1 354.932 38.012 357.382 37.286 C 359.74 36.56 362.19 36.107 364.548 36.107 C 371.171 36.107 374.618 38.737 374.981 43.908 L 365.183 43.908 C 357.744 43.908 352.21 45.269 348.672 47.809 C 345.044 50.35 343.32 53.978 343.32 58.605 C 343.32 61.508 343.955 64.139 345.406 66.407 C 346.858 68.675 348.945 70.489 351.757 71.76 C 354.478 73.12 357.835 73.755 361.645 73.755 C 368.812 73.755 373.62 71.397 376.161 66.588 L 376.161 72.939 L 392.218 72.939 L 392.218 45.632 C 392.218 38.012 390.041 32.296 385.777 28.577 L 385.777 28.577 L 385.777 28.577 L 385.777 28.577 L 385.777 28.577 L 385.777 28.577 Z M 482.636 70.489 C 486.9 72.667 491.799 73.755 497.242 73.755 C 502.776 73.755 507.584 72.576 511.666 70.217 C 515.658 67.859 518.561 64.502 520.285 60.238 L 506.949 53.434 C 504.681 57.879 501.415 60.057 497.151 60.057 C 494.067 60.057 491.436 59.059 489.44 56.972 C 487.444 54.886 486.446 51.983 486.446 48.263 C 486.446 44.634 487.444 41.822 489.44 39.735 C 491.436 37.74 494.067 36.651 497.151 36.651 C 501.415 36.651 504.681 38.919 506.949 43.273 L 520.285 36.469 C 518.561 32.296 515.658 28.94 511.666 26.581 C 507.584 24.222 502.776 22.952 497.242 22.952 C 491.799 22.952 486.9 24.041 482.636 26.218 C 478.282 28.395 474.925 31.389 472.566 35.199 C 470.207 39.01 469.028 43.364 469.028 48.263 C 469.028 53.162 470.207 57.607 472.566 61.417 C 474.925 65.318 478.282 68.312 482.636 70.489 Z ' fill-rule='evenodd' fill='rgb(255,255,255)'/%3E%3C/g%3E%3C/svg%3E"</div>
+			</div>
+		</div>
+	</header>
+	<div class="typology-cover typology-cover-empty" id="typology-cover"></div>
+	<div class="typology-fake-bg">
+		<div class="typology-section">
+			<div class="section-content">
+				<article class="typology-post typology-single-post post-115 post type-post status-publish format-standard has-post-thumbnail hentry category-technology tag-noimages tag-stories tag-writing" id="post-115">
+					<div class="entry-content clearfix">
+<h1><strong>How to Bring Order to Research Data Before It Costs You a Publication</strong></h1>
+<p>There's a particular kind of dread that settles in when a researcher realizes, mid-manuscript, that they can't locate a critical dataset from eight months ago. Maybe it's saved under a file name like "final_v3_ACTUAL_final.xlsx" buried in a folder no one thought to label clearly. Maybe it exists in three slightly different versions across two computers and a shared drive, and nobody's entirely sure which one reflects the last round of corrections. If this sounds familiar, you're not alone &mdash; and the consequences of this kind of data chaos can range from mildly inconvenient to career-defining in the worst possible way.</p>
+<p>This guide is for the graduate student managing their first large-scale experiment, the postdoc suddenly responsible for coordinating a multi-person dataset, and the research coordinator who inherited a filing system that made sense to exactly one person who has since graduated. The goal here isn't to turn you into a data scientist or an IT specialist. It's to give you a clear-eyed look at why research data gets disorganized in the first place, what's actually at stake when it does, and what you can do about it &mdash; starting this week.</p>
+<h2><strong>Why Research Data Gets Out of Control: The Structural Causes Behind the Mess</strong></h2>
+<p>It's tempting to frame data chaos as a personal failing &mdash; a matter of individual discipline or attention to detail. But that framing misses something important. In most research environments, the conditions that produce disorganized data are structural, baked into how labs operate and how scientific work gets done.</p>
+<h3><strong>The Myth of "I'll Organize It Later"</strong></h3>
+<p>Research moves in bursts. An experiment reaches a critical stage, a deadline pushes forward, a collaborator needs results by Friday. In these moments, proper documentation feels like overhead &mdash; something to handle once the urgent thing is done. The problem is that "later" is almost never honored in a scientific environment where the next urgent thing is already waiting. What begins as a temporary workaround becomes the permanent system.</p>
+<p>This pattern is especially common during data collection phases, when the priority is generating results rather than curating them. Files accumulate without consistent naming conventions. Raw data gets mixed with processed outputs. Handwritten notes from lab bench sessions don't get transferred to any digital record at all. None of this happens because researchers don't care about good practice &mdash; it happens because the workflow doesn't build in time or structure for it.</p>
+<h3><strong>Collaboration Without Coordination</strong></h3>
+<p>Modern research is rarely done in isolation. Experiments involve multiple team members, often working different schedules, using different equipment, and recording observations in whatever format feels most natural to them. Without a shared system that specifies how data should be named, stored, and versioned, a single project can generate files that are technically compatible but practically incomprehensible to anyone other than the person who created them.</p>
+<p>This problem compounds over time. A lab that has been running for five or ten years often carries the organizational habits of everyone who has ever worked there &mdash; a patchwork of systems that were each sensible in isolation but were never designed to coexist. The longer this goes unaddressed, the harder it becomes to untangle.</p>
+<h3><strong>Equipment and Software That Don't Talk to Each Other</strong></h3>
+<p>Another underappreciated contributor to data chaos is the sheer variety of instruments and software platforms involved in scientific work. A single experiment might generate outputs from imaging equipment, analytical instruments, and computational pipelines, each exporting data in a different format. Without a deliberate effort to standardize how that data gets captured and stored, researchers end up with a fragmented record that requires manual reconciliation every time someone needs a complete picture.</p>
+<p>This is where broader infrastructure matters. Laboratory management software can serve as a connective layer &mdash; a place where data from disparate sources gets logged in a consistent format and linked to the experimental context that produced it. But even without dedicated software, understanding that fragmentation is a structural problem (not a personal one) is the first step toward addressing it.</p>
+<h2><strong>The Real Stakes: What Happens When Data Chaos Goes Unchecked</strong></h2>
+<p>Disorganized research data rarely announces its consequences immediately. The problems tend to surface at the worst possible moments &mdash; when you're under deadline, when someone else needs to replicate your work, or when a reviewer asks a question you can't confidently answer. Understanding what's actually at risk is what transforms data organization from a good habit into a genuine professional priority.</p>
+<h3><strong>Retracted Results and the Reproducibility Problem</strong></h3>
+<p>Science depends on the ability of other researchers to verify and build on published findings. When data is poorly organized, that reproducibility becomes difficult or impossible &mdash; not necessarily because the science was bad, but because the record of how it was done is incomplete. A missing processing step, an unlabeled version of a dataset, or an undocumented change to an analytical method can make it impossible to reconstruct exactly what was done and why.</p>
+<p>The consequences aren't hypothetical. Retractions due to data errors &mdash; including errors that stem from version confusion, mislabeled samples, or undocumented protocol deviations &mdash; represent a real and growing concern across scientific disciplines. Even when a retraction isn't the outcome, a paper that can't withstand rigorous replication scrutiny quietly erodes the credibility of everyone involved.</p>
+<h3><strong>Failed Audits and the Grant Renewal You Didn't Expect to Lose</strong></h3>
+<p>Federally funded research in the United States is subject to data management requirements from agencies like the NIH and NSF. These aren't suggestions. When an audit or a data sharing request arrives &mdash; and for active grant recipients, these are more common than many early-career researchers expect &mdash; the ability to produce complete, organized, and traceable records is not optional.</p>
+<p>A lab that has been operating without a clear data management system may find itself scrambling to reconstruct documentation that should have been maintained in real time. At best, this is an enormous drain on time and energy. At worst, it raises questions about research integrity that are difficult to answer after the fact, regardless of whether any actual misconduct occurred.</p>
+<h3><strong>The Quiet Cost of Repeated Experiments</strong></h3>
+<p>Perhaps the most financially and emotionally draining consequence of data chaos is the repeat experiment &mdash; the experiment that gets run again not because the results were inconclusive, but because no one can locate the original data with enough confidence to use it. Reagents, instrument time, and researcher hours are all finite resources. Running an experiment twice because the first round of data can't be verified is a waste that most research budgets and timelines can't easily absorb.</p>
+<p>This is a cost that rarely shows up in any formal accounting. It's absorbed silently into extended project timelines and unexplained budget shortfalls. But for the graduate student who spent three weeks repeating an experiment they already ran, or the postdoc who missed a conference submission window because a critical dataset couldn't be located in time, the impact is anything but invisible.</p>
+<h3><strong>Authorship Disputes and the Data You Can't Prove You Generated</strong></h3>
+<p>Research data also has an ownership dimension that gets complicated when records are poor. Questions about who generated what, when, and under whose direction can become contested when documentation is incomplete. Clear, timestamped, and systematically organized data records are among the strongest tools a researcher has for establishing their contribution to a body of work. Without them, disputes that should be straightforward become murky &mdash; and in competitive academic environments, that murkiness has real professional consequences.</p>
+<h2><strong>Building Your Data Management System From the Ground Up</strong></h2>
+<p>The good news is that you don't need a large budget, a dedicated IT department, or weeks of uninterrupted time to build a research data management system that actually works. What you need is a clear framework, a commitment to consistency, and a willingness to establish habits before the next experiment begins rather than after it ends. This section walks through the core components of a functional system, starting with the decisions that have the highest impact.</p>
+<h3><strong>Start With a File Naming Convention &mdash; and Actually Enforce It</strong></h3>
+<p>A file naming convention sounds almost embarrassingly basic, but it is the single most effective intervention you can make for a disorganized lab. A good convention encodes the information you'll need later directly into the file name itself: the date the file was created, the experiment or project it belongs to, the version number, and a short descriptor of the content.</p>
+<p>A workable format might look something like this:</p>
+<ul>
+<li>YYYYMMDD_ProjectCode_ExperimentID_Description_v01</li>
+<li>20240315_BRCA2_Exp04_WesternBlot_RawData_v01</li>
+<li>20240318_BRCA2_Exp04_WesternBlot_Processed_v02</li>
+</ul>
+<p>The date goes first so files sort chronologically by default. The version number goes last so it's easy to identify the most current iteration. The key is that everyone working on the project uses the same convention without exception. A naming system that three out of five team members follow is only marginally better than no system at all.</p>
+<h3><strong>Define Your Folder Architecture Before You Generate Any Data</strong></h3>
+<p>Folder structure is the scaffolding your naming convention hangs on. A flat collection of well-named files is still difficult to navigate at scale. A logical folder hierarchy makes it possible to find what you need without relying on memory or a search function.</p>
+<p>A simple and durable structure for most research projects organizes content into four top-level categories:</p>
+<ul>
+<li>Raw data: untouched outputs directly from instruments or collection tools, never modified</li>
+<li>Processed data: outputs from any analytical step applied to raw data, with processing steps documented</li>
+<li>Analysis: scripts, code, statistical outputs, and any files generated during the interpretive phase</li>
+<li>Documentation: protocols, lab notes, metadata files, and any correspondence relevant to the project</li>
+</ul>
+<p>Raw data deserves special treatment. It should be stored in a location that is effectively read-only in practice &mdash; moved there once and never edited. Every transformation applied to that data should happen on a copy, with the processing steps recorded. This single habit eliminates an entire category of reproducibility problems.</p>
+<h3><strong>Document as You Go, Not as You Remember</strong></h3>
+<p>The most common documentation failure in research isn't laziness &mdash; it's timing. Notes get written hours or days after an experiment, when the details that seemed obvious in the moment have already started to blur. The standard for useful documentation is specificity: another competent researcher should be able to read your records and reproduce exactly what you did, without needing to ask you a single clarifying question.</p>
+<p>This means recording not just what you did, but what deviated from the plan. An instrument that behaved unexpectedly, a reagent lot that was substituted at the last minute, a step that was performed out of sequence because of a timing constraint &mdash; all of these belong in the record. Omitting them because they feel like imperfections misunderstands what documentation is for. Imperfections are precisely what a reviewer or replicating researcher needs to know about.</p>
+<p>Electronic lab notebooks have made this easier for many research teams, providing a timestamped and searchable record that paper notebooks can't match. For teams not yet using one, even a shared document with a consistent entry format represents a significant improvement over nothing.</p>
+<h3><strong>Establish a Version Control Protocol for Collaborative Work</strong></h3>
+<p>Version control &mdash; the practice of systematically tracking changes to files over time &mdash; is standard practice in software development and increasingly recognized as essential in research. At its simplest, version control means that every significant change to a dataset or analysis file creates a new version rather than overwriting the previous one, and that each version is labeled clearly enough that you could reconstruct the timeline of changes if you needed to.</p>
+<p>For computational work, tools like Git provide robust version control with minimal overhead once the initial setup is done. For labs that are not primarily computational, a simpler manual system &mdash; consistent version numbering in file names combined with a change log document &mdash; achieves much of the same result. The goal is to make it impossible to lose a previous state of your data by accident.</p>
+<h3><strong>Use Metadata to Give Your Data Context It Can't Provide Itself</strong></h3>
+<p>A data file on its own tells you very little about the conditions under which it was generated. Metadata &mdash; structured information about your data &mdash; fills that gap. At a minimum, useful metadata for a research dataset includes the date of collection, the researcher who collected it, the instrument or method used, the sample identifiers involved, and any deviations from standard protocol.</p>
+<p>This is an area where laboratory management software earns its place most naturally. Platforms designed for lab environments can automatically capture much of this contextual information at the point of data entry, linking it to the relevant experiment without requiring a separate manual step. For labs that aren't using dedicated software, a metadata template &mdash; a simple standardized document filled out for each new dataset &mdash; accomplishes the same purpose with nothing more than a shared drive and some discipline.</p>
+<h2><strong>Where Laboratory Management Software Fits In &mdash; and What It Can't Do For You</strong></h2>
+<p>By the time a research team has wrestled with version confusion, scattered metadata, and the logistical weight of coordinating data across multiple contributors, the appeal of a dedicated software solution becomes obvious. Laboratory management software &mdash; the category of platforms designed specifically to centralize and standardize how labs capture, store, and retrieve research data &mdash; offers genuine advantages for teams at a certain scale and stage of organization. But it's worth being precise about what these tools actually solve, and where the limits of any software solution begin.</p>
+<h3><strong>What Laboratory Management Software Actually Does Well</strong></h3>
+<p><a href="https://www.sapiosciences.com/solutions/research/"><strong><em>At its core, laboratory management software functions as a structured environment where experimental data, sample records, instrument logs, and workflow documentation can coexist in a single system rather than across a dozen disconnected files and folders</em></strong></a>. The practical benefit of this isn't just tidiness &mdash; it's traceability. When every action taken on a sample or dataset is recorded within the same platform, reconstructing the history of an experiment becomes a search query rather than an archaeological dig.</p>
+<p>These platforms also address one of the most persistent challenges in collaborative research: the fact that different people naturally record information differently. A shared system with defined fields and required inputs imposes a level of consistency that a shared folder simply cannot. A researcher logging a new sample into a laboratory management platform fills out the same fields in the same format as everyone else on the team, regardless of their individual organizational preferences. That standardization accumulates into something genuinely valuable over the life of a project.</p>
+<p>Integration with laboratory instruments is another meaningful advantage in well-resourced environments. Some platforms can receive data outputs directly from analytical equipment, eliminating the manual transfer step where transcription errors most commonly occur. For high-throughput labs generating large volumes of instrument data, this kind of direct integration isn't a luxury &mdash; it's a practical necessity for maintaining data integrity at scale.</p>
+<h3><strong>The Honest Limitations You Should Know Before You Commit</strong></h3>
+<p>Software solves structural problems, but it doesn't solve behavioral ones. A laboratory management platform introduced into a team that hasn't yet agreed on how to name experiments, who is responsible for logging what, or what counts as a complete record will quickly become another source of inconsistency rather than a remedy for it. The platform provides the container; the team has to decide what goes in it and how.</p>
+<p>There's also an adoption curve that research teams consistently underestimate. Learning a new system takes time, and that time comes out of research hours. The transition period &mdash; when some data is in the new system and some is still in the old one &mdash; can be particularly disorienting if it isn't managed deliberately. Teams that rush implementation without adequate training and a clear migration plan often end up with a fragmented record that's harder to navigate than what they started with.</p>
+<p>Cost is a real factor, particularly for smaller labs and independent investigators without institutional support. Enterprise laboratory management platforms carry licensing fees that aren't trivial, and the more sophisticated the integration capabilities, the higher the price tends to be. It's worth evaluating honestly whether the scale and complexity of your lab's data actually requires a dedicated platform, or whether a well-designed folder architecture, consistent naming conventions, and a shared electronic lab notebook would achieve 80 percent of the benefit at a fraction of the cost.</p>
+<h3><strong>How to Evaluate Whether Your Lab Is Ready for Dedicated Software</strong></h3>
+<p>The decision to implement laboratory management software shouldn't be driven by the sense that your lab is supposed to have it. It should be driven by a clear-eyed assessment of where your current system is actually breaking down. A few questions worth sitting with honestly:</p>
+<p>Are researchers regularly spending time looking for data they know exists but can't locate? Are there recurring errors that trace back to working from the wrong version of a dataset? Is onboarding new team members to the lab's data practices taking significantly longer than it should? Are instrument outputs requiring manual re-entry into other systems at a scale that introduces meaningful error risk?</p>
+<p>If the answer to most of these is yes, a dedicated platform is likely worth the investment and the transition effort. If the answer to most of them is no, the more productive intervention is probably shoring up the foundational habits described in the previous section &mdash; because software imposed on a weak organizational foundation will inherit the weaknesses rather than fix them.</p>
+<p>The most effective implementations of laboratory management software tend to share one characteristic: the labs that adopt them already have reasonably coherent data practices in place. The software amplifies and scales what's already working. It doesn't conjure order from chaos.</p>
+<h2><strong>Quick Wins: What You Can Do This Week to Stop the Bleeding</strong></h2>
+<p>Systemic data organization is a long-term project, but the gap between where your lab is now and where it needs to be doesn't have to be closed all at once. There are targeted interventions that take hours rather than weeks, cost nothing, and produce immediate improvements in how your team handles data. This section is about those interventions &mdash; the changes you can make before the next experiment runs, without waiting for a software budget to be approved or a full team meeting to be scheduled.</p>
+<h3><strong>Audit What You Already Have Before You Add Anything New</strong></h3>
+<p>The instinct when facing a disorganized system is to start building something better immediately. Resist that instinct for just a moment. Before you create a new folder structure or draft a naming convention, spend an hour doing an honest inventory of what currently exists. Where does your data actually live right now? How many different storage locations are actively in use &mdash; local drives, shared network folders, cloud storage, external hard drives, personal laptops? Are there datasets that exist in only one location with no backup?</p>
+<p>This audit doesn't need to be exhaustive or perfectly documented. Its purpose is to give you an accurate picture of the problem's actual shape rather than an assumed one. You may find that the disorganization is more contained than it feels, concentrated in one project or one team member's workflow. Or you may find that it runs deeper than expected. Either way, you're making decisions based on reality rather than impression.</p>
+<h3><strong>Pick One Project and Build the Template There First</strong></h3>
+<p>Trying to reorganize everything at once is how reorganization efforts stall. Instead, identify a single active project &mdash; ideally one that is early in its data generation phase &mdash; and use it as the testing ground for whatever system you're building. Create the folder structure, apply the naming convention, set up the metadata template, and live with it for two or three weeks before rolling it out more broadly.</p>
+<p>This approach does two things. It lets you discover the practical problems with your system while the stakes are low enough to course-correct without disrupting an entire lab. And it gives you a working example to show other team members rather than an abstract description of what you'd like everyone to do differently. Concrete examples are far more persuasive than policy documents.</p>
+<h3><strong>Write the Rules Down in a Place Everyone Can Find</strong></h3>
+<p>One of the most common failure modes in lab data management is the unwritten convention &mdash; the system that lives in the head of the person who designed it and gets transmitted to new team members through informal conversation, if at all. Every organizational decision you make this week should be written down in a single shared reference document: the naming convention, the folder structure, the metadata requirements, who is responsible for logging what, and what to do when something doesn't fit neatly into the existing system.</p>
+<p>This document doesn't need to be long or formal. A single page covering the essentials is more useful than a comprehensive manual that nobody reads. The goal is that any new team member joining the lab should be able to sit down with that document and understand the data management system without needing to ask anyone for clarification. If they can't, the document needs another revision.</p>
+<h3><strong>Set a Standing Time for Data Housekeeping</strong></h3>
+<p>Documentation and organization have a way of getting perpetually deferred in the face of more urgent demands. The most reliable counter to this is scheduling. A short, recurring block of time &mdash; twenty to thirty minutes at the end of each experimental day, or a slightly longer block at the end of each week &mdash; dedicated specifically to catching up on any logging, filing, or documentation that didn't happen in real time makes an enormous difference over the course of a project.</p>
+<p>This isn't about achieving perfection in the moment. It's about preventing the accumulation of organizational debt that becomes genuinely difficult to address once a project is six months in and the details of early experiments have faded. Think of it as the research equivalent of the weekly review &mdash; a small, regular investment that pays off disproportionately when you're preparing a manuscript and need to reconstruct exactly what you did and when.</p>
+<h3><strong>Back Up Immediately and Automatically</strong></h3>
+<p>No data management system is worth anything if the data itself disappears. This sounds obvious, but a surprising number of research labs operate without a reliable, automatic backup process &mdash; relying instead on periodic manual backups that get skipped when things get busy. Raw data, in particular, should be backed up to at least two separate locations as soon as it is generated, one of which should be physically or geographically separate from the primary storage location.</p>
+<p>Cloud storage services widely available to academic researchers &mdash; including institutional offerings from many universities &mdash; make automatic, redundant backup straightforward and free or low-cost. If your lab doesn't have an automatic backup system running right now, setting one up is the highest-return action you can take this week. Everything else in this guide becomes irrelevant if a hard drive failure or an accidental deletion can permanently erase months of work.</p>
+<h2><strong>The Researcher Who Gets to Publication Is the One Who Can Find Their Data</strong></h2>
+<p>There's a version of this problem that ends badly &mdash; the retraction, the failed audit, the repeat experiment that consumed three months of a timeline that didn't have three months to spare. But there's another version, far more common, that ends with something quieter and almost as damaging: the researcher who simply can't move as fast as they should, perpetually slowed by the friction of a data environment they never took the time to organize.</p>
+<p>The argument for getting this right isn't really about compliance or best practice in the abstract. It's about protecting the work you've already done. Every experiment you run represents hours of your time, laboratory resources, and intellectual effort. Disorganized data doesn't erase that investment &mdash; it just makes it much harder to use. A dataset you can't locate with confidence is a dataset that may as well not exist when a reviewer asks a pointed question or a collaborator needs to build on your findings.</p>
+<p>The good news, as this guide has tried to make clear, is that the path from chaos to functional order doesn't require a complete overhaul. It requires a sequence of relatively modest decisions, made consistently and documented clearly. A naming convention. A folder structure. A metadata template. A standing block of time for housekeeping. A backup system that runs without you having to remember to start it. These aren't glamorous interventions, but they compound in ways that matter enormously over the arc of a research career.</p>
+<p>Laboratory management software, when your lab is ready for it and the scale justifies the investment, can extend and formalize these practices in ways that manual systems can't easily match. But the foundation has to exist first. Software amplifies structure &mdash; it doesn't create it from nothing.</p>
+<p>The practical next step is straightforward: pick the smallest piece of this that your lab isn't currently doing, and do it before the next experiment begins. Not after the manuscript draft, not when things slow down, not once the new cohort of students has settled in. Before the next experiment. Because the data you generate next week will either become an asset you can build on or a liability you'll eventually have to manage &mdash; and that outcome is largely determined before the first sample is collected.</p>
+<p>What would it mean for your research if, six months from now, you could find any piece of data you needed in under two minutes?</p>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
